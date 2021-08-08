@@ -30,6 +30,20 @@ const tickets = [
     status: false,
     created: Date.now(),
   },
+  {
+    id: idGenerator.generateGUID(),
+    name: "Установить обновление KB-31642dv3875",
+    description: "Вышло критическое обновление для Windows.",
+    status: false,
+    created: Date.now(),
+  },
+  {
+    id: idGenerator.generateGUID(),
+    name: "Установить обновление KB-31642dv3875",
+    description: "Вышло критическое обновление для Windows.",
+    status: false,
+    created: Date.now(),
+  },
 ];
 
 app.use(async (ctx) => {

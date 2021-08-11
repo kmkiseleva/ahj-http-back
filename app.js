@@ -12,7 +12,7 @@ const tickets = [
   {
     id: idGenerator.generateGUID(),
     name: "Поменять краску в принтере, ком. 404",
-    description: "Принтер HP LJ-1210, картриджи на складе",
+    description: "Принтер HP LJ-1210, картриджи на складе.",
     status: false,
     created: Date.now(),
   },
@@ -26,7 +26,7 @@ const tickets = [
   {
     id: idGenerator.generateGUID(),
     name: "Установить обновление KB-31642dv3875",
-    description: "Вышло критическое обновление для Windows",
+    description: "Вышло критическое обновление для Windows.",
     status: false,
     created: Date.now(),
   },
